@@ -3,12 +3,12 @@
 A deep learning project for automated detection of faults in seismic data using Convolutional Neural Networks (CNNs).
 This tool assists geoscientists and interpreters by providing fast, reproducible fault extraction from seismic sections.
 
-📌 Overview
+## 📌 Overview
 
 Faults are key structural features in subsurface exploration, yet manual interpretation is time-consuming and subjective.
 This project implements a CNN-based classifier to automatically detect fault vs. non-fault regions in seismic images.
 
-Features include:
+## Features include:
 
 --> Seismic image preprocessing (normalization, filtering, cropping)
 --> Fault/Non-fault patch extraction
@@ -17,7 +17,7 @@ Features include:
 --> Performance evaluation using IoU, Accuracy, Precision, F1-score
 --> Extendable pipeline for segmentation or UNet architectures
 
-🧠 Model Architecture (CNN)
+## 🧠 Model Architecture (CNN)
 
 --> The model uses a lightweight CNN composed of:
 --> Conv2D → ReLU → MaxPooling
@@ -27,7 +27,7 @@ Features include:
 
 This design is optimized for patch-based classification.
 
-🛰️ Applications
+## 🛰️ Applications
 --> Structural geology
 --> Hydrocarbon exploration
 --> Seismic interpretation QC
